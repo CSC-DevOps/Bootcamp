@@ -27,8 +27,9 @@ Let's install some useful tools:
 ```
 # A source code repository tool
 choco install git
-# Install R statistical language
-choco install r.project
+# Install virtual machine software
+choco install virtualbox
+choco install vagrant
 ```
 
 #### Installing HomeBrew on Mac OS X
@@ -40,10 +41,8 @@ Let's install some useful tools:
 ```bash
 # A source code repository tool
 brew install git
-# Add a new distribution source ("science"). 
-brew tap homebrew/science
-# Install R statistical language
-brew install R
+brew cask install virtualbox
+brew cask install vagrant
 ```
 
 ## Practice 1: Install Basic Development Environments
@@ -68,7 +67,7 @@ On Mac OS, this is a nice way to setup many c/c++ compilers and linkers, and bui
 xcode-select --install
 ```
 
-For Windows, installing [Visual Studio 2015, Community](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx), will actually make it easier to get a similiar set of tools installed on your system.
+For Windows, installing [Visual Studio 2015, Community](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx), will actually make it easier to get a similiar set of tools installed on your system. Otherwise, you can install just the [Build Tools](https://www.microsoft.com/en-us/download/details.aspx?id=48159).
 
 Finally, you probably want to have the latest version of Eclipse if you haven't already.  There is a nice auto-installer you can use (see banner on top of page).
 
